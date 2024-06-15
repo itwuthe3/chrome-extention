@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Image Downloader",
+    "version": "1.0",
+    "permissions": [
+      "contextMenus",
+      "activeTab",
+      "contextMenus",
+      "scripting",
+      "downloads"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
